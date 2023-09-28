@@ -1,7 +1,7 @@
 Задачей шестого проекта являлось тестирование мобильного приложения Яндекс Метро с применением эмулятора в Android Studio: тестрование нового релиза (непосредственно частей приложения, которых каснулись изменения) и регрессионное тестирование.
 
-1. Для наглядности в файлах [screen_yandex_metro_1.png](https://github.com/pavsta2/Portfolio-Yandex-Practicum-QA-/blob/master/Project%206.%20Mobile%20testing%20Yandex%20Metro(Android%20Studio%2C%20ADB)/screen_yandex_metro_1.png) и screen_yandex_metro_2.png можно посмотреть общий вид приложения на Android
+1. Для наглядности в файлах [screen_yandex_metro_1.png](https://github.com/pavsta2/Portfolio-Yandex-Practicum-QA-/blob/master/Project%206.%20Mobile%20testing%20Yandex%20Metro(Android%20Studio%2C%20ADB)/screen_yandex_metro_1.png) и [screen_yandex_metro_2.png](https://github.com/pavsta2/Portfolio-Yandex-Practicum-QA-/blob/master/Project%206.%20Mobile%20testing%20Yandex%20Metro(Android%20Studio%2C%20ADB)/screen_yandex_metro_2.png) можно посмотреть общий вид приложения на Android
 2. Файл Task_1.Func_test_cases.docx  содержит список тест-кейсов, составленных мною для проверки функциональности, которая подверглась каким-либо изменениям в новом релизе
-3. Для регресса был составлен чек-лист. Он находится в файле: Task_2.Regress_check_list.png
+3. Для регресса был составлен чек-лист. Он находится в файле: [Task_2.Regress_check_list.png](https://github.com/pavsta2/Portfolio-Yandex-Practicum-QA-/blob/master/Project%206.%20Mobile%20testing%20Yandex%20Metro(Android%20Studio%2C%20ADB)/Task_2.Regress_check_list.png)
 4. В ходе тестирования было выявлено 7 багов, составлены баг-репорты в Яндекс Трекере. Баг-репорты находятся в файле: Bug_reports_Yandex_Metro.docx
-5. Выявленные в Требованиях серые зоны были собраны в файл: Grey_zones_Ya_Metro_Specs.pdf
+5. Выявленные в Требованиях серые зоны были собраны в файл: [Grey_zones_Ya_Metro_Specs.pdf](https://github.com/pavsta2/Portfolio-Yandex-Practicum-QA-/blob/master/Project%206.%20Mobile%20testing%20Yandex%20Metro(Android%20Studio%2C%20ADB)/Grey_zones_Ya_Metro_Specs.pdf)
