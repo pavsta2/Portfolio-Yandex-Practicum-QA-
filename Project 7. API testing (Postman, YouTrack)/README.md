@@ -115,14 +115,14 @@ https://pasta81.youtrack.cloud/issue/8-2/Pri-POST-zaprose-na-ruchku-fast-deliver
 Мой ответ:
 Для анализа информационных логов необходимо выполнить следующие команды:
 
-ssh <имя пользователя>@<хост> -p <порт>
-mkdir generallogs
-cd generallogs
-cp //var/www/backend/packages/main/logs/combined.log ~/generallogs
-mv combined.log logs1.log
-cp //var/www/backend/packages/main/logs/combined.log ~/generallogs
-mv combined.log logs2.log
-touch info.log
-grep -i INFO logs1.log > info.log
-grep -i INFO logs2.log >> info.log
+- ssh <имя пользователя>@<хост> -p <порт>
+- mkdir generallogs
+- cd generallogs
+- cp //var/www/backend/packages/main/logs/combined.log ~/generallogs
+- mv combined.log logs1.log
+- cp //var/www/backend/packages/main/logs/combined.log ~/generallogs
+- mv combined.log logs2.log
+- touch info.log
+- grep -i INFO logs1.log > info.log
+- grep -i INFO logs2.log >> info.log
 
