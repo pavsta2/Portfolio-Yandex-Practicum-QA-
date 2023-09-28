@@ -1,7 +1,7 @@
 В данном проекте необхоимо было провести тестирование 4х эндпоинтов API веб-сервиса Яндекс Прилавок. Также в проекте было два дополнительных задания: локализовать баг по имеющемуся описанию и выполнить некоторые манипуляции в терминале (как практика работы в CLI).
 По порядку:
 1. Для тестирования API был составлен чек-лист и по нему проведено тестирование API с использованием Postman. Результаты выполнения тестов можно посмотреть здесь: https://docs.google.com/spreadsheets/d/1zZLh7OjlUkEwUva0W_kQno7biPoouZtVnF5h2WFFKNw/edit?usp=sharing.
-Коллекция Postman: в файле sprint 7.postman_collection.json
+Коллекция Postman: в файле [sprint 7.postman_collection.json](https://github.com/pavsta2/Portfolio-Yandex-Practicum-QA-/blob/master/Project%207.%20API%20testing%20(Postman%2C%20YouTrack)/sprint%207.postman_collection.json)
 
 2. Из 72 проверок успешно прошло 25, не прошло — 42, требует уточнений по требованиям – 5
 
