@@ -1,0 +1,51 @@
+Отчет о тестировании зачетного проекта 4 спринта.
+
+В рамках проекта были проведены следующие проверки:
+- Общий интерфейс приложения Яндекс Маршруты 2.0. Проведены тесты полей Откуда и Куда
+- Функциональность Каршеринг. Проведены тесты формы добавления прав и формы добавления карты.
+- Новая функциональность - Аэротакси. Проведены тесты интерфейса приложения, связанные с появлением нового вида транспорта
+
+Итоги тестирования.
+Проведены все тесты. Найдены баги:
+По тестированию форм добавления прав и карты в Каршеринге:
+https://tracker.yandex.ru/BUGSPLUS-68802
+https://tracker.yandex.ru/BUGSPLUS-68822
+https://tracker.yandex.ru/BUGSPLUS-68859
+https://tracker.yandex.ru/BUGSPLUS-68864
+
+По тестированию полей Откуда и Куда:
+
+Окружение: Яндекс.Браузер, разрешение экрана 800x600:
+https://tracker.yandex.ru/BUGSPLUS-69035
+https://tracker.yandex.ru/BUGSPLUS-69002
+https://tracker.yandex.ru/BUGSPLUS-69039
+https://tracker.yandex.ru/BUGSPLUS-69010
+https://tracker.yandex.ru/BUGSPLUS-69014
+https://tracker.yandex.ru/BUGSPLUS-69017
+https://tracker.yandex.ru/BUGSPLUS-69022
+https://tracker.yandex.ru/BUGSPLUS-69025
+https://tracker.yandex.ru/BUGSPLUS-69007
+https://tracker.yandex.ru/BUGSPLUS-69027
+https://tracker.yandex.ru/BUGSPLUS-69029
+https://tracker.yandex.ru/BUGSPLUS-69030
+
+Окружение: Firefox, разрешение экрана 1920x1080:
+https://tracker.yandex.ru/BUGSPLUS-69000
+https://tracker.yandex.ru/BUGSPLUS-69036
+https://tracker.yandex.ru/BUGSPLUS-69040
+https://tracker.yandex.ru/BUGSPLUS-69043
+https://tracker.yandex.ru/BUGSPLUS-69046
+https://tracker.yandex.ru/BUGSPLUS-69047
+https://tracker.yandex.ru/BUGSPLUS-69050
+https://tracker.yandex.ru/BUGSPLUS-69051
+https://tracker.yandex.ru/BUGSPLUS-69052
+https://tracker.yandex.ru/BUGSPLUS-69053
+https://tracker.yandex.ru/BUGSPLUS-69055
+https://tracker.yandex.ru/BUGSPLUS-69056
+
+по тестированию новой функциональности - Аэротакси:
+https://tracker.yandex.ru/BUGSPLUS-69151
+
+Вывод.
+В целом критических багов не выявлено. Приложение удобное и простое. Интерфейс интуитивно понятный.
+Считаю, что после исправления бага с верификацией прав можно релиз выпускать (без Аэротакси) и давать доступ пользователям. По ходу исправить остальные найденные баги.
