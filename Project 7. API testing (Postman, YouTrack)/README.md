@@ -1,81 +1,9 @@
 В данном проекте необхоимо было провести тестирование 4х эндпоинтов API веб-сервиса Яндекс Прилавок. Также в проекте было два дополнительных задания: локализовать баг по имеющемуся описанию и выполнить некоторые манипуляции в терминале (как практика работы в CLI).
 По порядку:
-1. Для тестирования API был составлен чек-лист и по нему проведено тестирование API с использованием Postman. Результаты выполнения тестов можно посмотреть здесь: https://docs.google.com/spreadsheets/d/1zZLh7OjlUkEwUva0W_kQno7biPoouZtVnF5h2WFFKNw/edit?usp=sharing.
+1. Для тестирования API был составлен чек-лист и по нему проведено тестирование API с использованием Postman. Результаты выполнения тестов со ссылками на БР в YouTrack можно посмотреть здесь: https://docs.google.com/spreadsheets/d/1zZLh7OjlUkEwUva0W_kQno7biPoouZtVnF5h2WFFKNw/edit?usp=sharing.
+
 Коллекция Postman: в файле [sprint 7.postman_collection.json](https://github.com/pavsta2/Portfolio-Yandex-Practicum-QA-/blob/master/Project%207.%20API%20testing%20(Postman%2C%20YouTrack)/sprint%207.postman_collection.json)
 
-2. Из 72 проверок успешно прошло 25, не прошло — 42, требует уточнений по требованиям – 5
-
-Список багов, найденных при тестировании, разбит по приоритетам:
-
-Критичные: 
-https://pasta81.youtrack.cloud/issue/8-24/Pri-DELETE-zaprose-na-ruchku-api-v1-orders-id-s-korrektnym-parametrom-id-vozvrashaetsya-kod-404-vmesto-200.-Korzina-ne
-
-Серьезные: 
-https://pasta81.youtrack.cloud/issue/8-25/Pri-POST-zaprose-na-ruchku-fast-delivery-v3.1.1-calculate-delivery.xml-parametrom-deliveryTime-vyhodyashim-za-ramki-raboty 
-
-https://pasta81.youtrack.cloud/issue/8-26/Pri-PUT-zaprose-na-ruchku-api-v1-orders-id-s-parametrom-productsList-soderzhashim-specsimvoly-vozvrashaetsya-kod-500-a-ne-400. 
-
-https://pasta81.youtrack.cloud/issue/8-21/Pri-PUT-zaprose-na-ruchku-api-v1-orders-id-s-parametrom-productsList-soderzhashim-znacheniya-tipa-stroka-a-ne-spisok
-
-https://pasta81.youtrack.cloud/issue/8-18/Pri-PUT-zaprose-na-ruchku-api-v1-orders-id-s-nekorrektnym-url-parametrom-v-vide-bukvy-vozvrashaetsya-kod-500-a-ne-404.
-
-https://pasta81.youtrack.cloud/issue/8-17/Pri-GET-zaprose-na-ruchku-api-v1-orders-id-s-nekorrektnym-url-parametrom-v-vide-bukvy-vozvrashaetsya-kod-500-a-ne-404.
-
-https://pasta81.youtrack.cloud/issue/8-23/Pri-PUT-zaprose-na-ruchku-api-v1-orders-id-s-nekorrektnym-parametrom-id-vozvrashaetsya-kod-500-a-ne-404. 
-
-https://pasta81.youtrack.cloud/issue/8-30/Pri-PUT-zaprose-na-ruchku-api-v1-orders-id-s-pustym-parametrom-id-vozvrashaetsya-kod-500-a-ne-400.  
-
-https://pasta81.youtrack.cloud/issue/8-28/Pri-PUT-zaprose-na-ruchku-api-v1-orders-id-s-parametrom-id-v-vide-chisla-v-stroke-vozvrashaetsya-kod-409-a-ne-400. 
-
-https://pasta81.youtrack.cloud/issue/8-32/Pri-PUT-zaprose-na-ruchku-api-v1-orders-id-s-parametrom-id-v-vide-veshestv-chisla-kod-500-a-ne-400. 
-
-https://pasta81.youtrack.cloud/issue/8-33/Pri-PUT-zaprose-na-ruchku-api-v1-orders-id-s-parametrom-quantity-v-vide-veshestv-chisla-kod-200-a-ne-400. 
-
-https://pasta81.youtrack.cloud/issue/8-34/Pri-PUT-zaprose-na-ruchku-api-v1-orders-id-s-parametrom-id-v-vide-stroki-s-anglijskimi-bukvami-vozvrashaetsya-kod-500-a-ne-400. 
-
-https://pasta81.youtrack.cloud/issue/8-35/Pri-PUT-zaprose-na-ruchku-api-v1-orders-id-s-parametrom-quantity-v-vide-stroki-s-angl-bukvami-vozvrashaetsya-kod-200-a-ne-400. 
-	
-Средний приоритет: 
-
-https://pasta81.youtrack.cloud/issue/8-31/Pri-PUT-zaprose-na-ruchku-api-v1-orders-id-s-otsutstvuyushim-parametrom-id-vozvrashaetsya-kod-409-a-ne-400. 
-
-https://pasta81.youtrack.cloud/issue/8-29/Pri-PUT-zaprose-na-ruchku-api-v1-orders-id-s-parametrom-quantity-v-vide-chisla-v-stroke-vozvrashaetsya-kod-409-a-ne-400. 
-
-https://pasta81.youtrack.cloud/issue/8-23/Pri-PUT-zaprose-na-ruchku-api-v1-orders-id-s-nekorrektnym-parametrom-quantity-kod-200-a-ne-400.-V-korzinu-dobavlyaetsya
-
-https://pasta81.youtrack.cloud/issue/8-20/Pri-PUT-zaprose-na-ruchku-api-v1-orders-id-s-pustym-parametrom-productsList-vozvrashaetsya-kod-200-a-ne-400.
-
-https://pasta81.youtrack.cloud/issue/8-19/Pri-PUT-zaprose-na-ruchku-api-v1-orders-id-bez-parametra-productsList-vozvrashaetsya-kod-200-a-ne-400.
-
-https://pasta81.youtrack.cloud/issue/8-16/Pri-POST-zaprose-na-ruchku-fast-delivery-v3.1.1-calculate-delivery.xml-s-nekorrektnym-parametrom-deliveryTime-v-vide
-
-https://pasta81.youtrack.cloud/issue/8-15/Pri-POST-zaprose-na-ruchku-fast-delivery-v3.1.1-calculate-delivery.xml-s-nekorrektnym-parametrom-deliveryTime-v-vide-znakov
-
-https://pasta81.youtrack.cloud/issue/8-13/Pri-POST-zaprose-na-ruchku-fast-delivery-v3.1.1-calculate-delivery.xml-s-nekorrektnym-parametrom-productsCount-v-vide-bukvennogo
-
-https://pasta81.youtrack.cloud/issue/8-14/Pri-POST-zaprose-na-ruchku-fast-delivery-v3.1.1-calculate-delivery.xml-s-nekorrektnym-parametrom-productsWeight-v-vide
-
-https://pasta81.youtrack.cloud/issue/8-8/Pri-POST-zaprose-na-ruchku-fast-delivery-v3.1.1-calculate-delivery.xml-s-parametrom-productsCount-tipa-dannyh-stroka
-
-https://pasta81.youtrack.cloud/issue/8-9/Pri-POST-zaprose-na-ruchku-fast-delivery-v3.1.1-calculate-delivery.xml-s-parametrom-productsWeight-tipa-dannyh-stroka
-
-https://pasta81.youtrack.cloud/issue/8-10/Pri-POST-zaprose-na-ruchku-fast-delivery-v3.1.1-calculate-delivery.xml-s-parametrom-deliveryTime-tipa-dannyh-stroka
-
-https://pasta81.youtrack.cloud/issue/8-11/Pri-POST-zaprose-na-ruchku-fast-delivery-v3.1.1-calculate-delivery.xml-s-nekorrektnym-parametrom-productsCount-v-vide
-
-https://pasta81.youtrack.cloud/issue/8-12/Pri-POST-zaprose-na-ruchku-fast-delivery-v3.1.1-calculate-delivery.xml-s-nekorrektnym-parametrom-productsWeight-v-vide
-
-https://pasta81.youtrack.cloud/issue/8-7/Pri-POST-zaprose-na-ruchku-fast-delivery-v3.1.1-calculate-delivery.xml-s-pustym-parametrom-deliveryTime-vozvrashaetsya-kod-200
-
-https://pasta81.youtrack.cloud/issue/8-6/Pri-POST-zaprose-na-ruchku-fast-delivery-v3.1.1-calculate-delivery.xml-s-pustym-parametrom-productsWeight-vozvrashaetsya-kod-200
-
-https://pasta81.youtrack.cloud/issue/8-5/Pri-POST-zaprose-na-ruchku-fast-delivery-v3.1.1-calculate-delivery.xml-s-pustym-parametrom-productsCount-vozvrashaetsya-kod-200
-
-https://pasta81.youtrack.cloud/issue/8-3/Pri-POST-zaprose-na-ruchku-fast-delivery-v3.1.1-calculate-delivery.xml-s-nedostayushim-parametrom-productsWeight-vovrashaetsya
-
-https://pasta81.youtrack.cloud/issue/8-4/Pri-POST-zaprose-na-ruchku-fast-delivery-v3.1.1-calculate-delivery.xml-s-nedostayushim-parametrom-deliveryTime-vozvrashaetsya
-
-https://pasta81.youtrack.cloud/issue/8-2/Pri-POST-zaprose-na-ruchku-fast-delivery-v3.1.1-calculate-delivery.xml-s-nedostayushim-parametrom-productsCount-vovrashaetsya
 
 3. Задание по локализации бага звучало так: 
 "Джун-тестировщик обнаружил баг, но пока не понимает, какой команде его нести — бэкенд- или фронтенд-разработчикам. 
