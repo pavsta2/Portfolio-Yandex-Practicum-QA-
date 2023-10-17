@@ -11,3 +11,6 @@
 8. Базы данных SQL. Инструменты: CLI, psql
 9. Проектный месяц (Командный проект)
 10. Финальный дипломный проект
+
+Дополнительные проекты:
+[sirius_autotests_selenium_pytest](https://github.com/pavsta2/Portfolio-Yandex-Practicum-QA-/tree/master/sirius_autotests_selenium_pytest) - выполненное тестовое задание по подготовки Чек-листа для страницы регистрации и автоматизации некоторых тест кейсов с помощью Selenium Pytest
