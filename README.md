@@ -10,7 +10,7 @@
 7. [Тестирование API](https://github.com/pavsta2/Portfolio-Yandex-Practicum-QA-/tree/master/Project%207.%20API%20testing%20(Postman%2C%20YouTrack) веб-сервиса Яндекс Прилавок (BONUS: CLI). Инструменты: Apidoc, Postman, YouTrack, CLI  
 8. [Базы данных SQL](https://github.com/pavsta2/Portfolio-Yandex-Practicum-QA-/tree/master/Project%208.%20SQL%20(CLI%2C%20psql)). Инструменты: CLI, psql
 9. [Автотесты](https://github.com/pavsta2/Portfolio-Yandex-Practicum-QA-/tree/master/Project%209.Auto_tests). Проект по написанию автотестов API на примере веб-сервиса Яндекс Прилавок. Инструменты: PyCharm, Python, Pytest
-10. Финальный дипломный проект
+10. [Финальный дипломный проект](https://github.com/pavsta2/Portfolio-Yandex-Practicum-QA-/tree/master/Project%2010.%20Final%20diploma%20project)
 
 Дополнительные проекты:
 [sirius_autotests_selenium_pytest](https://github.com/pavsta2/Portfolio-Yandex-Practicum-QA-/tree/master/sirius_autotests_selenium_pytest) - выполненное тестовое задание по подготовки Чек-листа для страницы регистрации и автоматизации некоторых тест кейсов с помощью Selenium Pytest
