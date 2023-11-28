@@ -9,7 +9,7 @@
 6. [Тестирование мобильных приложений](https://github.com/pavsta2/Portfolio-Yandex-Practicum-QA-/tree/master/Project%206.%20Mobile%20testing%20Yandex%20Metro(Android%20Studio%2C%20ADB)). На примере учебного приложения Яндекс Метро. Инстументы: Android Studio, ADB, TMS, Яндекс Трекер
 7. [Тестирование API](https://github.com/pavsta2/Portfolio-Yandex-Practicum-QA-/tree/master/Project%207.%20API%20testing%20(Postman%2C%20YouTrack)) веб-сервиса Яндекс Прилавок (BONUS: CLI). Инструменты: Apidoc, Postman, YouTrack, CLI  
 8. Базы данных SQL. Инструменты: CLI, psql
-9. Проектный месяц (Командный проект)
+9. Проект по написанию автотестов API на примере веб-сервиса Яндекс Прилавок. Инструменты: PyCharm, Python, Pytest
 10. Финальный дипломный проект
 
 Дополнительные проекты:
